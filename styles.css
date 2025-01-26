@@ -149,15 +149,35 @@ a{
   border-radius: 5px;
   z-index: 1;
 }
-.formDone{
+#confirmation-message {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: white;
   display: none;
+   border: 1px solid white; padding: 10px; margin-top: 20px; border-radius: 5px;
 }
-.hidden{
-  display: none !important;
+#confirmation-message h4{
+  margin-left: 0;
 }
-.see{
-  display: block !important;
+
+.Message{
+  background-color: white;
 }
+.Notifi {
+  width: 350px;
+  border: 1px solid green;
+  border-radius: 15px;
+padding: 20px 25px;
+margin: 0 auto;
+
+font-style: italic; font-size: 18px;
+color: green; 
+}
+
+
+
 .input-group {
   padding: 5px;
   font-size: 10px;
